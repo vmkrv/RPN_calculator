@@ -14,6 +14,7 @@
 		AE2F578E1B9DDEEA0083660A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE2F578D1B9DDEEA0083660A /* Images.xcassets */; };
 		AE2F57911B9DDEEA0083660A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE2F578F1B9DDEEA0083660A /* LaunchScreen.xib */; };
 		AE2F579D1B9DDEEA0083660A /* RPN_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2F579C1B9DDEEA0083660A /* RPN_CalculatorTests.m */; };
+		AEAAF0B31BA18F3100EB3F70 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = AEAAF0B21BA18F3100EB3F70 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		AE2F57961B9DDEEA0083660A /* RPN_CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RPN_CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2F579B1B9DDEEA0083660A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE2F579C1B9DDEEA0083660A /* RPN_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RPN_CalculatorTests.m; sourceTree = "<group>"; };
+		AEAAF0B21BA18F3100EB3F70 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 				AE2F57871B9DDEEA0083660A /* ViewController.h */,
 				AE2F57881B9DDEEA0083660A /* ViewController.m */,
 				AE2F578A1B9DDEEA0083660A /* Main.storyboard */,
+				AEAAF0B21BA18F3100EB3F70 /* button.png */,
 				AE2F578D1B9DDEEA0083660A /* Images.xcassets */,
 				AE2F578F1B9DDEEA0083660A /* LaunchScreen.xib */,
 				AE2F57801B9DDEEA0083660A /* Supporting Files */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AE2F578C1B9DDEEA0083660A /* Main.storyboard in Resources */,
+				AEAAF0B31BA18F3100EB3F70 /* button.png in Resources */,
 				AE2F57911B9DDEEA0083660A /* LaunchScreen.xib in Resources */,
 				AE2F578E1B9DDEEA0083660A /* Images.xcassets in Resources */,
 			);
@@ -350,6 +354,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RPN_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +365,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RPN_Calculator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -418,6 +424,7 @@
 				AE2F57A21B9DDEEA0083660A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AE2F57A31B9DDEEA0083660A /* Build configuration list for PBXNativeTarget "RPN_CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +433,7 @@
 				AE2F57A51B9DDEEA0083660A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
